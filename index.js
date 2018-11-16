@@ -5,5 +5,5 @@ function getFirstSelector(div){
 function nestedTarget() {
   document.getElementsbyClassName("ranked-list")
   ranked-list.nested
-  return nested.target
+  return document.getElementbyId("nested").querySelector(".target")
 }
